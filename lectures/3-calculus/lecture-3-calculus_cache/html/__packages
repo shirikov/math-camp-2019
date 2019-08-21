@@ -1,0 +1,17 @@
+base
+here
+magrittr
+tidyverse
+ggplot2
+tibble
+tidyr
+readr
+purrr
+dplyr
+stringr
+forcats
+knitr
+webshot
+latex2exp
+xaringan
+xaringanthemer
