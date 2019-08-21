@@ -232,15 +232,11 @@ If we wanted to describe the probability of each potential outcome, we would do 
 
 ---
 
-## Some (empirical) distributions...
+## Some distributions...
 
 <center>
-<img width = 80% src="img/densities.png">
+<img width = 60% src="img/distr.png">
 </center>
-
-.footnote[
-https://sysplay.in/blog/tag/probability-density-function/
-]
 
 ---
 
@@ -337,7 +333,7 @@ $$n \times n \times n \times \ldots \times n = n^{k}$$
 
 Intuition: in each draw, there are $n$ possibilities. Each of $n$ outcomes in one draw can be combined with the $n$ outcomes in any (and all) other draws.
 
-Example: rolling the dice
+Example: rolling two dice several times
 
 
 
@@ -411,15 +407,15 @@ Imagine we rank the 3 top swimmers in this room.
 
 --
 
-Imagine we have 4 different scholarships for students in this room. You can win more than one scholarship. How many different combinations of winners can there be?
+Imagine we have 4 different scholarships for students in this room. You can win more than one scholarship. How many different sets of winners can there be?
 
 --
 
-Imagine we have 5 identical candies for students in this room. You can win more than 1 candy. How many different combinations of winners can there be?
+Imagine we have 5 identical candies for students in this room. You can win more than 1 candy. How many different sets of winners can there be?
 
 --
 
-Imagine we have 2 identical bicycles for students in this room. You can only win 1 bicycle. How many combinations of winners?
+Imagine we have 2 identical bicycles for students in this room. You can only win 1 bicycle. How many sets of winners?
 
 
 

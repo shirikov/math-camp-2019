@@ -19,6 +19,8 @@ output:
 
 ```{r xaringan-themer, include = FALSE}
 library("here")
+library("tidyverse")
+library("webshot")
 source(here("R/setup-lectures.R"))
 ```
 
@@ -1013,8 +1015,8 @@ Let $h(x) = 6(3x^2 + 2)^4$. Observe that this can be thought of as two nested fu
 \begin{align}
 h(x)' = (f(g(x)))' &= (6(3x^2 + 2)^4)' \\
 &= (4)6(3x^2 + 2)^{4-1}(3x^2 + 2)' \\
-&= 24(x^2-5x+20)^{3}(6x) \\
-&= 144x(x^2-5x+20)^{3} \\
+&= 24(3x^2 + 2)^{3}(6x) \\
+&= 144x(3x^2 + 2)^{3} \\
 \end{align}
 
 ---
@@ -1122,7 +1124,7 @@ Let $f(x) = 4^x$. What is $f'(x)$?
 --
 
 \begin{align}
-f'(x) =(4^x)' = ln(4)4x
+f'(x) =(4^x)' = ln(4)4^x
 \end{align}
 
 --
