@@ -575,7 +575,7 @@ Probabilities are strictly bounded on the closed interval `\([0, 1]\)`
 
 --
 
-If we had `\(N\)` many *exhaustive* and *mutually exclusive* sets of potential outcomes, their probabilities sum to 1. Which is to say, *something must happen*.
+If we had `\(N\)` many *collectively exhaustive* and *mutually exclusive* sets of potential outcomes, their probabilities sum to 1. Which is to say, *something must happen*.
 
 `$$\sum\limits_{n = 1}^{N} p(A_{n}) = 1$$`
 
@@ -615,7 +615,7 @@ Probability that a random card is a Heart? `\(p(H) = \frac{1}{4}\)`
 --
 
 
-Probability that a card is not a heart? `\(1 - p(H) = \frac{3}{4}\)`
+Probability that a card is not a Heart? `\(1 - p(H) = \frac{3}{4}\)`
 
 
 
@@ -653,9 +653,9 @@ The intuition: the sum of `\(A\)` and `\(B\)` will double count `\(A \cap B\)`, 
 
 ---
 
-## Probability of Unions
+## Probability of unions
 
-What is the probability that we draw a card that is *either* a heart *or* a face card?
+What is the probability that we draw a card that is *either* a Heart *or* a face card?
 
 &lt;center&gt;
   &lt;img width = 80% src="img/cards-union-intersect.png"&gt;
@@ -1008,8 +1008,8 @@ Total probability of blue is the sum of the joint probabilities (a very useful p
 --
 
 `$$\begin{align}
-  p(\mathrm{blue}) &amp;= p(\mathrm{blue} \mid A) + p(\mathrm{blue} \mid B) \\
-  &amp;= p(\mathrm{blue} \mid A) + p(\mathrm{blue} \mid A^{C})
+  p(\mathrm{blue}) &amp;= p(\mathrm{blue} \mid A) * p(A) + p(\mathrm{blue} \mid B) * p(B) \\
+  &amp;= p(\mathrm{blue} \mid A) * p(A) + p(\mathrm{blue} \mid A^{C}) * p(A^{C})
 \end{align}$$`
 
 
